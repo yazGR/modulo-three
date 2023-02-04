@@ -1,24 +1,29 @@
-# README
+# Module-Three
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+```
+brew install overmind tmux
+bundle install
+yarn install
+```
 
-* Ruby version
+## Running
 
-* System dependencies
+```
+overmind s -f Procfile.dev
+```
 
-* Configuration
+## Debugging
 
-* Database creation
+```
+Add `debugger` somewhere in your code (byebug new replacement)
+In a terminal, type `overmind connect web` and now you can start debugging.
+To end a debugging session: CTRL+B then D
+```
 
-* Database initialization
+## Test by Spec
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bundle exec rspec
+```

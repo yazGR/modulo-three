@@ -56,3 +56,25 @@ Processing by FiniteStateMachinesController#machine as HTML
 Redirected to http://test.host/machine
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 460)
   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 0.8ms | Allocations: 205)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.haml (Duration: 0.9ms | Allocations: 318)
+Completed 200 OK in 8ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3314)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by FiniteStateMachinesController#machine as HTML
+  Parameters: {"machine"=>{"final_states"=>"(S0,0);(S1,1);(S2,2)", "initial_state"=>"S0", "input"=>"1010", "transition_functions"=>"δ(S0,0) = S0; δ(S0,1) = S1; δ(S1,0) = S2; δ(S1,1) = S0; δ(S2,0) = S1; δ(S2,1) = S2"}}
+Redirected to http://test.host/machine
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms | Allocations: 1435)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by FiniteStateMachinesController#machine as HTML
+  Parameters: {"machine"=>{"final_states"=>"(S0,0);(S1,1);(S2,2)", "initial_state"=>"S0", "input"=>"1010", "transition_functions"=>"δ(S0,0) = S0; δ(S0,1) = S1; δ(S1,0) = S2; δ(S1,1) = S0; δ(S2,0) = S1; δ(S2,1) = S2"}}
+Redirected to http://test.host/machine
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 455)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
