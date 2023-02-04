@@ -1,0 +1,2145 @@
+Started GET "/" for ::1 at 2023-02-02 18:00:32 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.7ms | Allocations: 585)
+Completed 200 OK in 16ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4651)
+
+
+Started GET "/" for ::1 at 2023-02-02 18:34:38 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 281)
+Completed 200 OK in 4ms (Views: 2.8ms | Allocations: 962)
+
+
+Started GET "/" for ::1 at 2023-02-02 18:35:05 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 281)
+Completed 200 OK in 2ms (Views: 1.4ms | Allocations: 950)
+
+
+Started GET "/" for ::1 at 2023-02-02 18:35:07 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 16)
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 250)
+
+
+Started GET "/" for ::1 at 2023-02-02 19:11:01 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Completed 406 Not Acceptable in 2ms (Allocations: 950)
+
+
+  
+ActionController::MissingExactTemplate (FiniteStateMachinesController#machine is missing a template for request formats: text/html):
+  
+actionpack (7.0.4.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.2) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2023-02-02 19:13:22 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 6.0ms | Allocations: 6548)
+  Rendered layout layouts/application.html.haml (Duration: 637.1ms | Allocations: 102970)
+Completed 200 OK in 645ms (Views: 639.8ms | ActiveRecord: 0.0ms | Allocations: 105960)
+
+
+Started GET "/" for ::1 at 2023-02-02 19:16:23 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 18.1ms | Allocations: 4298)
+  Rendered layout layouts/application.html.haml (Duration: 37.2ms | Allocations: 22855)
+Completed 200 OK in 43ms (Views: 42.3ms | Allocations: 23793)
+
+
+Started GET "/" for ::1 at 2023-02-02 19:16:31 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 7.2ms | Allocations: 8066)
+  Rendered layout layouts/application.html.haml (Duration: 58.9ms | Allocations: 48180)
+Completed 200 OK in 66ms (Views: 61.3ms | ActiveRecord: 0.0ms | Allocations: 51169)
+
+
+Started GET "/" for ::1 at 2023-02-02 19:16:33 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 0.1ms | Allocations: 64)
+  Rendered layout layouts/application.html.haml (Duration: 2.3ms | Allocations: 2616)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2939)
+
+
+Started GET "/" for ::1 at 2023-02-02 19:17:35 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 1.8ms | Allocations: 2287)
+  Rendered layout layouts/application.html.haml (Duration: 8.0ms | Allocations: 11072)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 11897)
+
+
+Started GET "/" for ::1 at 2023-02-02 19:23:41 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 7.6ms | Allocations: 6696)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 17.0ms | Allocations: 15308)
+  Rendered layout layouts/application.html.haml (Duration: 17.1ms | Allocations: 15404)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms | Allocations: 18335)
+
+
+  
+ActionView::Template::Error (undefined method `user_path' for #<ActionView::Base:0x0000000000ad20>
+
+            @virtual_path = "finite_state_machines/_form";;@output_buffer = output_buffer || ActionView::OutputBuffer.new; _haml_compiler1 =  simple_form_for :machine, url: user_path(@user), data: { turbo: false } do |f|; 
+                                                                                                                                                                             ^^^^^^^^^):
+    1: = simple_form_for :machine, url: user_path(@user), data: { turbo: false } do |f|
+    2:   .row
+  
+app/views/finite_state_machines/_form.html.haml:1
+app/views/finite_state_machines/machine.html.haml:4
+Started GET "/" for ::1 at 2023-02-02 19:36:17 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 61.4ms | Allocations: 12136)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 63.7ms | Allocations: 14837)
+  Rendered layout layouts/application.html.haml (Duration: 119.1ms | Allocations: 55900)
+Completed 200 OK in 122ms (Views: 120.7ms | Allocations: 56866)
+
+
+Started GET "/" for ::1 at 2023-02-02 19:37:31 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 19.6ms | Allocations: 14047)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 21.6ms | Allocations: 16802)
+  Rendered layout layouts/application.html.haml (Duration: 29.1ms | Allocations: 25422)
+Completed 200 OK in 31ms (Views: 30.3ms | Allocations: 26258)
+
+
+Started GET "/" for ::1 at 2023-02-02 19:38:56 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 11.5ms | Allocations: 11107)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 13.7ms | Allocations: 13846)
+  Rendered layout layouts/application.html.haml (Duration: 20.6ms | Allocations: 22384)
+Completed 200 OK in 23ms (Views: 22.0ms | Allocations: 23220)
+
+
+Started GET "/" for ::1 at 2023-02-02 19:42:08 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.1ms | Allocations: 7832)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.3ms | Allocations: 7921)
+  Rendered layout layouts/application.html.haml (Duration: 7.6ms | Allocations: 10117)
+Completed 200 OK in 8ms (Views: 7.9ms | Allocations: 10396)
+
+
+Started GET "/" for ::1 at 2023-02-02 20:36:05 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 28.7ms | Allocations: 17152)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 38.9ms | Allocations: 25761)
+  Rendered layout layouts/application.html.haml (Duration: 120.3ms | Allocations: 74668)
+Completed 200 OK in 130ms (Views: 123.6ms | ActiveRecord: 0.0ms | Allocations: 77654)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/tom-select/src/scss/tom-select.bootstrap5.scss"):
+  
+Started GET "/" for ::1 at 2023-02-02 20:36:08 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 4.6ms | Allocations: 8052)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 4.8ms | Allocations: 8168)
+  Rendered layout layouts/application.html.haml (Duration: 6.7ms | Allocations: 10405)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 10710)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/tom-select/src/scss/tom-select.bootstrap5.scss"):
+  
+Started GET "/" for ::1 at 2023-02-02 20:36:24 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 21.7ms | Allocations: 17161)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 29.4ms | Allocations: 25770)
+  Rendered layout layouts/application.html.haml (Duration: 392.1ms | Allocations: 134751)
+Completed 200 OK in 398ms (Views: 394.0ms | ActiveRecord: 0.0ms | Allocations: 137735)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/tom-select/src/scss/tom-select.bootstrap5.scss"):
+  
+Started GET "/" for ::1 at 2023-02-02 20:37:26 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 6.3ms | Allocations: 11056)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 8.6ms | Allocations: 13799)
+  Rendered layout layouts/application.html.haml (Duration: 15.2ms | Allocations: 23622)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 24441)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/tom-select/src/scss/tom-select.bootstrap5.scss"):
+  
+Started GET "/" for ::1 at 2023-02-02 20:46:44 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.2ms | Allocations: 7866)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.3ms | Allocations: 7955)
+  Rendered layout layouts/application.html.haml (Duration: 195.3ms | Allocations: 33652)
+Completed 200 OK in 196ms (Views: 195.6ms | Allocations: 33929)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/tom-select/src/scss/tom-select.bootstrap5.scss"):
+  
+Started GET "/" for ::1 at 2023-02-02 20:46:45 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 4.8ms | Allocations: 7870)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.1ms | Allocations: 7959)
+  Rendered layout layouts/application.html.haml (Duration: 7.9ms | Allocations: 10992)
+Completed 200 OK in 9ms (Views: 8.2ms | Allocations: 11251)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/tom-select/src/scss/tom-select.bootstrap5.scss"):
+  
+Started GET "/" for ::1 at 2023-02-02 20:46:55 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 28.5ms | Allocations: 17161)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 37.2ms | Allocations: 25769)
+  Rendered layout layouts/application.html.haml (Duration: 145.2ms | Allocations: 75100)
+Completed 200 OK in 152ms (Views: 147.7ms | ActiveRecord: 0.0ms | Allocations: 78084)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/tom-select/src/scss/tom-select.bootstrap5.scss"):
+  
+Started GET "/" for ::1 at 2023-02-02 20:53:56 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.6ms | Allocations: 8039)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 6.0ms | Allocations: 8155)
+  Rendered layout layouts/application.html.haml (Duration: 10.1ms | Allocations: 11217)
+Completed 200 OK in 11ms (Views: 10.6ms | Allocations: 11509)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/tom-select/src/scss/tom-select.bootstrap5.scss"):
+  
+Started GET "/" for ::1 at 2023-02-02 21:08:36 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 29.1ms | Allocations: 17168)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 38.5ms | Allocations: 25777)
+  Rendered layout layouts/application.html.haml (Duration: 58.3ms | Allocations: 35318)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 0.0ms | Allocations: 38262)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+     7:     = csrf_meta_tags
+     8:     = csp_meta_tag
+     9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    10:     = javascript_include_tag "application", "data-turbo-track": "reload", defer: true
+    11:     = javascript_importmap_tags
+    12:   %body
+  
+app/views/layouts/application.html.haml:9
+Started GET "/" for ::1 at 2023-02-02 21:10:03 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 7.8ms | Allocations: 8061)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 8.1ms | Allocations: 8177)
+  Rendered layout layouts/application.html.haml (Duration: 159.9ms | Allocations: 51761)
+Completed 500 Internal Server Error in 161ms (ActiveRecord: 0.0ms | Allocations: 52034)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-02 21:12:36 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 8.2ms | Allocations: 11070)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 10.8ms | Allocations: 13813)
+  Rendered layout layouts/application.html.haml (Duration: 45.3ms | Allocations: 42816)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms | Allocations: 43576)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-02 21:19:02 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.0ms | Allocations: 7875)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.3ms | Allocations: 7964)
+  Rendered layout layouts/application.html.haml (Duration: 80.7ms | Allocations: 45424)
+Completed 500 Internal Server Error in 82ms (Allocations: 45669)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-02 21:19:04 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 4.8ms | Allocations: 7876)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.1ms | Allocations: 7965)
+  Rendered layout layouts/application.html.haml (Duration: 26.8ms | Allocations: 28623)
+Completed 500 Internal Server Error in 27ms (Allocations: 28856)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-02 21:21:34 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 29.3ms | Allocations: 17168)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 37.9ms | Allocations: 25777)
+  Rendered layout layouts/application.html.haml (Duration: 145.8ms | Allocations: 61682)
+Completed 500 Internal Server Error in 155ms (ActiveRecord: 0.0ms | Allocations: 64604)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-02 21:27:23 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.6ms | Allocations: 8061)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.8ms | Allocations: 8177)
+  Rendered layout layouts/application.html.haml (Duration: 41.1ms | Allocations: 30806)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms | Allocations: 31077)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-02 21:27:26 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 6.2ms | Allocations: 7876)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 6.6ms | Allocations: 7965)
+  Rendered layout layouts/application.html.haml (Duration: 52.8ms | Allocations: 47002)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms | Allocations: 47243)
+
+
+  
+ActionView::Template::Error (Asset `application.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.js
+
+and restart your server):
+     7:     = csrf_meta_tags
+     8:     = csp_meta_tag
+     9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    10:     = javascript_include_tag "application", "data-turbo-track": "reload", defer: true
+    11:   %body
+    12:     .p-3
+    13: 
+  
+app/views/layouts/application.html.haml:10
+Started GET "/" for ::1 at 2023-02-02 21:32:40 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 6.1ms | Allocations: 7876)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 6.4ms | Allocations: 7965)
+  Rendered layout layouts/application.html.haml (Duration: 361.0ms | Allocations: 51564)
+Completed 500 Internal Server Error in 362ms (Allocations: 51798)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-02 22:15:11 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 62.7ms | Allocations: 21919)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 77.1ms | Allocations: 32017)
+  Rendered layout layouts/application.html.haml (Duration: 334.8ms | Allocations: 122490)
+Completed 500 Internal Server Error in 350ms (ActiveRecord: 0.0ms | Allocations: 126671)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap/scss/bootstrap.
+        on line 1:1 of app/assets/stylesheets/application.scss
+>> @import 'bootstrap/scss/bootstrap';
+
+   ^
+):
+  
+app/assets/stylesheets/application.scss:1
+Started GET "/" for ::1 at 2023-02-02 22:29:26 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 6.4ms | Allocations: 8073)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 6.6ms | Allocations: 8189)
+  Rendered layout layouts/application.html.haml (Duration: 28.2ms | Allocations: 28697)
+Completed 500 Internal Server Error in 29ms (Allocations: 28968)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap/scss/bootstrap.
+        on line 1:1 of app/assets/stylesheets/application.scss
+>> @import 'bootstrap/scss/bootstrap';
+
+   ^
+):
+  
+app/assets/stylesheets/application.scss:1
+Started GET "/" for ::1 at 2023-02-02 22:30:19 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 6.5ms | Allocations: 7887)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 7.1ms | Allocations: 7976)
+  Rendered layout layouts/application.html.haml (Duration: 221.5ms | Allocations: 58582)
+Completed 500 Internal Server Error in 222ms (Allocations: 58813)
+
+
+  
+ActionView::Template::Error (Asset `application.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.js
+
+and restart your server):
+     7:     = csrf_meta_tags
+     8:     = csp_meta_tag
+     9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    10:     = javascript_include_tag "application", "data-turbo-track": "reload", defer: true
+    11:   %body
+    12:     .p-3
+    13: 
+  
+app/views/layouts/application.html.haml:10
+Started GET "/" for ::1 at 2023-02-02 22:31:22 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 27.4ms | Allocations: 17170)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 35.8ms | Allocations: 25778)
+  Rendered layout layouts/application.html.haml (Duration: 110.8ms | Allocations: 60744)
+Completed 500 Internal Server Error in 118ms (ActiveRecord: 0.0ms | Allocations: 63667)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-02 22:35:52 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 27.3ms | Allocations: 17170)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 35.4ms | Allocations: 25779)
+  Rendered layout layouts/application.html.haml (Duration: 155.1ms | Allocations: 73889)
+Completed 500 Internal Server Error in 163ms (ActiveRecord: 0.0ms | Allocations: 76812)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-02 22:35:55 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 29.7ms | Allocations: 8061)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 29.9ms | Allocations: 8177)
+  Rendered layout layouts/application.html.haml (Duration: 49.6ms | Allocations: 28646)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms | Allocations: 28917)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-02 22:35:57 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.5ms | Allocations: 7876)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.8ms | Allocations: 7965)
+  Rendered layout layouts/application.html.haml (Duration: 26.9ms | Allocations: 28731)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms | Allocations: 29040)
+
+
+Started GET "/" for ::1 at 2023-02-02 22:38:17 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 7.5ms | Allocations: 11024)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 9.7ms | Allocations: 13769)
+  Rendered layout layouts/application.html.haml (Duration: 16.6ms | Allocations: 22279)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 23079)
+
+
+Started GET "/" for ::1 at 2023-02-02 22:39:18 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 10.5ms | Allocations: 11046)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 12.7ms | Allocations: 13785)
+  Rendered layout layouts/application.html.haml (Duration: 19.0ms | Allocations: 22611)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 23431)
+
+
+Started GET "/" for ::1 at 2023-02-03 16:59:10 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Started GET "/" for ::1 at 2023-02-03 17:07:24 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Started GET "/" for ::1 at 2023-02-03 17:08:55 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Started GET "/" for ::1 at 2023-02-03 17:12:49 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 47.7ms | Allocations: 17180)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 56.8ms | Allocations: 25722)
+  Rendered layout layouts/application.html.haml (Duration: 114.7ms | Allocations: 57880)
+Completed 200 OK in 6216ms (Views: 118.2ms | ActiveRecord: 0.0ms | Allocations: 220420)
+
+
+Started GET "/" for ::1 at 2023-02-03 17:15:03 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Started GET "/" for ::1 at 2023-02-03 17:16:08 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Started GET "/" for 127.0.0.1 at 2023-02-03 17:24:57 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Started GET "/" for 127.0.0.1 at 2023-02-03 17:28:52 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 36.7ms | Allocations: 18860)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 46.6ms | Allocations: 28129)
+  Rendered layout layouts/application.html.haml (Duration: 97.7ms | Allocations: 60477)
+Completed 200 OK in 361393ms (Views: 101.5ms | ActiveRecord: 0.0ms | Allocations: 203948)
+
+
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.3ms | Allocations: 7999)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.6ms | Allocations: 8127)
+  Rendered layout layouts/application.html.haml (Duration: 7.9ms | Allocations: 9894)
+Completed 200 OK in 132513ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 351302)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 17:41:24 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 2550)
+
+
+  
+ArgumentError (missing keyword: :input):
+  
+app/services/finite_state_machine_service.rb:2:in `initialize'
+app/controllers/finite_state_machines_controller.rb:5:in `new'
+app/controllers/finite_state_machines_controller.rb:5:in `machine'
+Started GET "/" for 127.0.0.1 at 2023-02-03 17:42:11 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 6.3ms | Allocations: 8084)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 6.5ms | Allocations: 8226)
+  Rendered layout layouts/application.html.haml (Duration: 8.9ms | Allocations: 10053)
+Completed 200 OK in 5911ms (Views: 9.7ms | Allocations: 17585)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 17:42:23 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 31.3ms | Allocations: 18324)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 40.5ms | Allocations: 27059)
+  Rendered layout layouts/application.html.haml (Duration: 83.0ms | Allocations: 58141)
+Completed 200 OK in 293692ms (Views: 86.7ms | ActiveRecord: 0.0ms | Allocations: 83861)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 17:47:26 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 22.9ms | Allocations: 18363)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 29.9ms | Allocations: 27099)
+  Rendered layout layouts/application.html.haml (Duration: 77.3ms | Allocations: 57913)
+Completed 200 OK in 63333ms (Views: 79.5ms | ActiveRecord: 0.0ms | Allocations: 76966)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 17:48:53 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 32.1ms | Allocations: 18310)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 42.0ms | Allocations: 27045)
+  Rendered layout layouts/application.html.haml (Duration: 109.9ms | Allocations: 58162)
+Completed 200 OK in 102853ms (Views: 113.6ms | ActiveRecord: 0.0ms | Allocations: 101338)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 17:50:52 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 32.0ms | Allocations: 18388)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 41.3ms | Allocations: 27129)
+  Rendered layout layouts/application.html.haml (Duration: 84.7ms | Allocations: 58217)
+Completed 200 OK in 14913ms (Views: 88.2ms | ActiveRecord: 0.0ms | Allocations: 168487)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 17:52:12 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Completed 500 Internal Server Error in 8075ms (ActiveRecord: 0.0ms | Allocations: 8998)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/services/finite_state_machine_service.rb:12:in `block in run!'
+app/services/finite_state_machine_service.rb:11:in `each'
+app/services/finite_state_machine_service.rb:11:in `run!'
+app/controllers/finite_state_machines_controller.rb:5:in `machine'
+Started GET "/" for 127.0.0.1 at 2023-02-03 17:52:42 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Started GET "/" for ::1 at 2023-02-03 17:54:21 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Started GET "/" for ::1 at 2023-02-03 18:00:09 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2686)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass
+
+      functions[values[0]] << Transition::new( input: values[1], next_state: function[1]).create
+                           ^^):
+  
+app/services/finite_state_machine_service.rb:25:in `block in transitions'
+app/services/finite_state_machine_service.rb:22:in `each'
+app/services/finite_state_machine_service.rb:22:in `transitions'
+app/services/finite_state_machine_service.rb:10:in `run!'
+app/controllers/finite_state_machines_controller.rb:5:in `machine'
+Started GET "/" for ::1 at 2023-02-03 18:00:30 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Started GET "/" for ::1 at 2023-02-03 18:00:54 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Started GET "/" for ::1 at 2023-02-03 18:05:50 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Started GET "/" for ::1 at 2023-02-03 18:08:00 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 30.8ms | Allocations: 17163)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 39.9ms | Allocations: 25772)
+  Rendered layout layouts/application.html.haml (Duration: 92.3ms | Allocations: 57796)
+Completed 200 OK in 102ms (Views: 95.1ms | ActiveRecord: 0.0ms | Allocations: 61100)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 18:08:55 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 32.5ms | Allocations: 18304)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 42.6ms | Allocations: 27039)
+  Rendered layout layouts/application.html.haml (Duration: 118.3ms | Allocations: 59190)
+Completed 200 OK in 241670ms (Views: 121.5ms | ActiveRecord: 0.0ms | Allocations: 98126)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 18:21:40 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1872)
+
+
+  
+ArgumentError (missing keyword: :final_states):
+  
+app/services/finite_state_machine_service.rb:2:in `initialize'
+app/controllers/finite_state_machines_controller.rb:5:in `new'
+app/controllers/finite_state_machines_controller.rb:5:in `machine'
+Started GET "/" for 127.0.0.1 at 2023-02-03 18:23:31 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Completed 500 Internal Server Error in 31994ms (Allocations: 7222)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/services/finite_state_machine_service.rb:16:in `run!'
+app/controllers/finite_state_machines_controller.rb:5:in `machine'
+Started GET "/" for 127.0.0.1 at 2023-02-03 18:24:08 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Completed 500 Internal Server Error in 183880ms (ActiveRecord: 0.0ms | Allocations: 11836)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/services/finite_state_machine_service.rb:16:in `run!'
+app/controllers/finite_state_machines_controller.rb:5:in `machine'
+Started GET "/" for ::1 at 2023-02-03 18:27:43 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+Started GET "/" for 127.0.0.1 at 2023-02-03 18:29:29 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 31.9ms | Allocations: 18373)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 40.7ms | Allocations: 27109)
+  Rendered layout layouts/application.html.haml (Duration: 120.7ms | Allocations: 59476)
+Completed 200 OK in 73107ms (Views: 124.2ms | ActiveRecord: 0.0ms | Allocations: 73128)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 18:32:58 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 37.2ms | Allocations: 19577)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 44.4ms | Allocations: 28341)
+  Rendered layout layouts/application.html.haml (Duration: 92.8ms | Allocations: 59461)
+Completed 200 OK in 99ms (Views: 95.0ms | ActiveRecord: 0.0ms | Allocations: 62817)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 18:36:29 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 8.2ms | Allocations: 12278)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 10.5ms | Allocations: 15060)
+  Rendered layout layouts/application.html.haml (Duration: 63.6ms | Allocations: 38234)
+Completed 200 OK in 66ms (Views: 65.0ms | ActiveRecord: 0.0ms | Allocations: 39115)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 18:40:27 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 52.2ms | Allocations: 12372)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 57.5ms | Allocations: 15158)
+  Rendered layout layouts/application.html.haml (Duration: 65.0ms | Allocations: 23979)
+Completed 200 OK in 67ms (Views: 66.1ms | Allocations: 24818)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 18:43:36 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 9.0ms | Allocations: 12271)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 11.2ms | Allocations: 15051)
+  Rendered layout layouts/application.html.haml (Duration: 17.1ms | Allocations: 24352)
+Completed 200 OK in 19ms (Views: 18.2ms | Allocations: 25184)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 18:45:01 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 16.3ms | Allocations: 12353)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 19.5ms | Allocations: 15135)
+  Rendered layout layouts/application.html.haml (Duration: 34.8ms | Allocations: 24435)
+Completed 200 OK in 37ms (Views: 36.1ms | Allocations: 25273)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 18:53:53 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.9ms | Allocations: 8687)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 10.1ms | Allocations: 9384)
+  Rendered layout layouts/application.html.haml (Duration: 12.2ms | Allocations: 11209)
+Completed 200 OK in 13ms (Views: 12.8ms | Allocations: 11838)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-03 18:56:11 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.6ms | Allocations: 8447)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.8ms | Allocations: 8536)
+  Rendered layout layouts/application.html.haml (Duration: 9.8ms | Allocations: 10235)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 10505)
+
+
+Started GET "/" for ::1 at 2023-02-03 18:57:13 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 29.1ms | Allocations: 18192)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 37.8ms | Allocations: 26826)
+  Rendered layout layouts/application.html.haml (Duration: 131.2ms | Allocations: 63380)
+Completed 500 Internal Server Error in 138ms (ActiveRecord: 0.0ms | Allocations: 66303)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-03 18:59:19 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 69.5ms | Allocations: 22927)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 84.1ms | Allocations: 33136)
+  Rendered layout layouts/application.html.haml (Duration: 535.0ms | Allocations: 141729)
+Completed 500 Internal Server Error in 549ms (ActiveRecord: 0.0ms | Allocations: 145884)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-03 19:03:33 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 6.2ms | Allocations: 8425)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 6.8ms | Allocations: 8541)
+  Rendered layout layouts/application.html.haml (Duration: 39.7ms | Allocations: 31320)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms | Allocations: 31591)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:17:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/autoload/sassc.rb:2:in `<main>'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+bootsnap (1.16.0) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:32:in `require'
+zeitwerk (2.6.6) lib/zeitwerk/kernel.rb:38:in `require'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:42:in `initialize'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `new'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:27:in `instance'
+sprockets (4.2.0) lib/sprockets/sassc_processor.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each_key'
+/Users/lenovo/.rbenv/versions/3.1.2/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-02-03 19:08:32 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 20.7ms | Allocations: 15529)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 29.6ms | Allocations: 24161)
+  Rendered layout layouts/application.html.haml (Duration: 109.8ms | Allocations: 58419)
+Completed 500 Internal Server Error in 118ms (ActiveRecord: 0.0ms | Allocations: 61364)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap/scss/bootstrap.
+        on line 1:1 of app/assets/stylesheets/application.scss
+>> @import 'bootstrap/scss/bootstrap';
+
+   ^
+):
+  
+app/assets/stylesheets/application.scss:1
+Started GET "/" for ::1 at 2023-02-03 19:13:16 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 6.4ms | Allocations: 8443)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 6.7ms | Allocations: 8559)
+  Rendered layout layouts/application.html.haml (Duration: 33.4ms | Allocations: 29299)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms | Allocations: 29641)
+
+
+Started GET "/" for ::1 at 2023-02-03 19:16:49 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 8.0ms | Allocations: 12078)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 10.1ms | Allocations: 14825)
+  Rendered layout layouts/application.html.haml (Duration: 12.8ms | Allocations: 18709)
+Completed 500 Internal Server Error in 15ms (Allocations: 19473)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+    11:     %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css", :rel => "stylesheet"}
+    12:   %body
+    13:     .d-flex.justify-content-center"
+    14:       #page-content-wrapper
+    15:         .p-3
+    16: 
+    17:           - if content_for? :title
+  
+app/views/layouts/application.html.haml:14
+Started GET "/" for ::1 at 2023-02-03 19:16:57 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 8.9ms | Allocations: 12105)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 11.3ms | Allocations: 14848)
+  Rendered layout layouts/application.html.haml (Duration: 17.7ms | Allocations: 24079)
+Completed 200 OK in 20ms (Views: 18.8ms | Allocations: 24882)
+
+
+Started GET "/" for ::1 at 2023-02-03 19:18:01 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 10.6ms | Allocations: 12066)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 12.8ms | Allocations: 14806)
+  Rendered layout layouts/application.html.haml (Duration: 19.1ms | Allocations: 24055)
+Completed 200 OK in 22ms (Views: 20.6ms | Allocations: 24871)
+
+
+Started GET "/" for ::1 at 2023-02-03 19:18:03 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.1ms | Allocations: 8227)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.4ms | Allocations: 8316)
+  Rendered layout layouts/application.html.haml (Duration: 7.1ms | Allocations: 9955)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 10227)
+
+
+Started GET "/" for ::1 at 2023-02-03 19:19:02 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 7.7ms | Allocations: 13169)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 9.8ms | Allocations: 15912)
+  Rendered layout layouts/application.html.haml (Duration: 29.2ms | Allocations: 25143)
+Completed 200 OK in 31ms (Views: 30.5ms | Allocations: 25940)
+
+
+Started GET "/" for ::1 at 2023-02-03 19:20:00 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 10.5ms | Allocations: 13857)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 31.2ms | Allocations: 16598)
+  Rendered layout layouts/application.html.haml (Duration: 36.9ms | Allocations: 25834)
+Completed 200 OK in 42ms (Views: 41.1ms | Allocations: 26643)
+
+
+Started GET "/" for ::1 at 2023-02-03 19:20:28 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 8.4ms | Allocations: 13702)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 13.7ms | Allocations: 16933)
+  Rendered layout layouts/application.html.haml (Duration: 19.3ms | Allocations: 26157)
+Completed 200 OK in 21ms (Views: 20.4ms | Allocations: 27092)
+
+
+Started POST "/machine" for ::1 at 2023-02-03 19:22:01 -0500
+Processing by FiniteStateMachinesController#machine as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "machine"=>{"input"=>"110", "initial_state"=>"S0", "transition_functions"=>"δ(S0,0) = S0; δ(S0,1) = S1; δ(S1,0) = S2; δ(S1,1) = S0; δ(S2,0) = S1; δ(S2,1) = S2", "final_states"=>"(S0,0);(S1,1);(S2,2)"}, "commit"=>"Send"}
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.3ms | Allocations: 8775)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.6ms | Allocations: 8950)
+  Rendered layout layouts/application.html.haml (Duration: 7.2ms | Allocations: 10701)
+Completed 200 OK in 10ms (Views: 7.6ms | Allocations: 11795)
+
+
+Started POST "/machine" for ::1 at 2023-02-03 19:23:42 -0500
+Processing by FiniteStateMachinesController#machine as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "machine"=>{"input"=>"110", "initial_state"=>"S0", "transition_functions"=>"δ(S0,0) = S0; δ(S0,1) = S1; δ(S1,0) = S2; δ(S1,1) = S0; δ(S2,0) = S1; δ(S2,1) = S2", "final_states"=>"(S0,0);(S1,1);(S2,2)"}, "commit"=>"Send"}
+Completed 500 Internal Server Error in 4ms (Allocations: 3793)
+
+
+  
+NameError (undefined local variable or method `input' for #<FiniteStateMachinesController:0x00000000012e58>):
+  
+app/controllers/finite_state_machines_controller.rb:5:in `machine'
+Started GET "/" for ::1 at 2023-02-03 19:23:53 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 7.4ms | Allocations: 9105)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 7.7ms | Allocations: 9247)
+  Rendered layout layouts/application.html.haml (Duration: 10.1ms | Allocations: 11073)
+Completed 200 OK in 12ms (Views: 11.0ms | Allocations: 11677)
+
+
+Started POST "/machine" for ::1 at 2023-02-03 19:24:02 -0500
+Processing by FiniteStateMachinesController#machine as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "machine"=>{"input"=>"110", "initial_state"=>"S0", "transition_functions"=>"δ(S0,0) = S0; δ(S0,1) = S1; δ(S1,0) = S2; δ(S1,1) = S0; δ(S2,0) = S1; δ(S2,1) = S2", "final_states"=>"(S0,0);(S1,1);(S2,2)"}, "commit"=>"Send"}
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.2ms | Allocations: 8794)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.5ms | Allocations: 8925)
+  Rendered layout layouts/application.html.haml (Duration: 7.1ms | Allocations: 10673)
+Completed 200 OK in 9ms (Views: 7.5ms | Allocations: 11511)
+
+
+Started GET "/" for ::1 at 2023-02-03 19:28:23 -0500
+Processing by FiniteStateMachinesController#machine as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 9.9ms | Allocations: 14475)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 15.7ms | Allocations: 17697)
+  Rendered layout layouts/application.html.haml (Duration: 22.7ms | Allocations: 26924)
+Completed 200 OK in 25ms (Views: 24.1ms | Allocations: 27858)
+
+
+Started POST "/machine" for ::1 at 2023-02-03 19:28:32 -0500
+Processing by FiniteStateMachinesController#machine as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "machine"=>{"input"=>"110", "initial_state"=>"S0", "transition_functions"=>"δ(S0,0) = S0; δ(S0,1) = S1; δ(S1,0) = S2; δ(S1,1) = S0; δ(S2,0) = S1; δ(S2,1) = S2", "final_states"=>"(S0,0);(S1,1);(S2,2)"}, "commit"=>"Send"}
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.9ms | Allocations: 8812)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 6.1ms | Allocations: 8987)
+  Rendered layout layouts/application.html.haml (Duration: 13.2ms | Allocations: 10735)
+Completed 200 OK in 15ms (Views: 13.6ms | Allocations: 11621)
+
+
+Started POST "/machine" for ::1 at 2023-02-03 19:32:55 -0500
+Processing by FiniteStateMachinesController#machine as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "machine"=>{"input"=>"110", "initial_state"=>"S0", "transition_functions"=>"δ(S0,0) = S0; δ(S0,1) = S1; δ(S1,0) = S2; δ(S1,1) = S0; δ(S2,0) = S1; δ(S2,1) = S2", "final_states"=>"(S0,0);(S1,1);(S2,2)"}, "commit"=>"Send"}
+Redirected to http://localhost:3000/machine
+Completed 302 Found in 5ms (Allocations: 1568)
+
+
+Started GET "/machine" for ::1 at 2023-02-03 19:32:55 -0500
+Processing by FiniteStateMachinesController#machine as TURBO_STREAM
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 9.3ms | Allocations: 13743)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 11.7ms | Allocations: 16532)
+  Rendered layout layouts/application.html.haml (Duration: 18.0ms | Allocations: 26474)
+Completed 200 OK in 20ms (Views: 19.4ms | Allocations: 27412)
+
+
+Started POST "/machine" for ::1 at 2023-02-03 19:33:34 -0500
+Processing by FiniteStateMachinesController#machine as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "machine"=>{"input"=>"110", "initial_state"=>"S0", "transition_functions"=>"δ(S0,0) = S0; δ(S0,1) = S1; δ(S1,0) = S2; δ(S1,1) = S0; δ(S2,0) = S1; δ(S2,1) = S2", "final_states"=>"(S0,0);(S1,1);(S2,2)"}, "commit"=>"Send"}
+Redirected to http://localhost:3000/machine
+Completed 302 Found in 5ms (Allocations: 1370)
+
+
+Started GET "/machine" for ::1 at 2023-02-03 19:33:34 -0500
+Processing by FiniteStateMachinesController#machine as TURBO_STREAM
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 6.1ms | Allocations: 9097)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 6.4ms | Allocations: 9242)
+  Rendered layout layouts/application.html.haml (Duration: 8.4ms | Allocations: 11091)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 11652)
+
+
+Started POST "/machine" for ::1 at 2023-02-03 19:33:48 -0500
+Processing by FiniteStateMachinesController#machine as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "machine"=>{"input"=>"1010", "initial_state"=>"S0", "transition_functions"=>"δ(S0,0) = S0; δ(S0,1) = S1; δ(S1,0) = S2; δ(S1,1) = S0; δ(S2,0) = S1; δ(S2,1) = S2", "final_states"=>"(S0,0);(S1,1);(S2,2)"}, "commit"=>"Send"}
+Redirected to http://localhost:3000/machine
+Completed 302 Found in 1ms (Allocations: 623)
+
+
+Started GET "/machine" for ::1 at 2023-02-03 19:33:48 -0500
+Processing by FiniteStateMachinesController#machine as TURBO_STREAM
+  Rendering layout layouts/application.html.haml
+  Rendering finite_state_machines/machine.html.haml within layouts/application
+  Rendered finite_state_machines/_form.html.haml (Duration: 5.6ms | Allocations: 8852)
+  Rendered finite_state_machines/machine.html.haml within layouts/application (Duration: 5.8ms | Allocations: 8944)
+  Rendered layout layouts/application.html.haml (Duration: 7.3ms | Allocations: 10599)
+Completed 200 OK in 8ms (Views: 7.6ms | Allocations: 10870)
+
+

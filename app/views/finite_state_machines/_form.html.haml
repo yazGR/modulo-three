@@ -1,0 +1,13 @@
+= simple_form_for :machine, url: machine_path do |f|
+  .row
+    .col-md-6
+      = f.input :input, class: "input-group input-group-sm mb-3"
+    .col-md-6
+      = f.input :initial_state
+    .col-md-12
+      = f.input :transition_functions
+    .col-12
+      = f.input :final_states
+
+  = f.submit t(".send"), class: "btn btn-outline-primary"
+
