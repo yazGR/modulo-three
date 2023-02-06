@@ -29,3 +29,8 @@ en:
     # prompts:
     #   defaults:
     #     age: 'Select your age'
+  finite_state_machines:
+    form:
+      input_label: "Input"
+      initial_state_label: "Initial state"
+      transition_functions_label: "Transition functions"

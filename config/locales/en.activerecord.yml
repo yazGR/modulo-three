@@ -1,0 +1,6 @@
+---
+en:
+  activemodel:
+    attributes:
+      contact_us_form:
+        file: File

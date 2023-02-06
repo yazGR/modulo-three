@@ -1,13 +1,13 @@
 = simple_form_for :machine, url: machine_path do |f|
   .row
     .col-md-6
-      = f.input :input, class: "input-group input-group-sm mb-3"
+      = f.input :input, class: "input-group input-group-sm mb-3", placeholder: t(".input"), label: t(".input_label")
     .col-md-6
-      = f.input :initial_state
+      = f.input :initial_state, placeholder: t(".initial_state"), label: t(".initial_state_label")
     .col-md-12
-      = f.input :transition_functions
+      = f.input :transition_functions, placeholder: t(".transition_functions"), label: t(".transition_functions_label")
     .col-12
-      = f.input :final_states
+      = f.input :final_states, placeholder: t(".final_states"), label: t(".final_states_label")
 
   = f.submit t(".send"), class: "btn btn-outline-primary"
 

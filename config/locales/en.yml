@@ -38,3 +38,8 @@ en:
     form:
       send: "Send"
       result: "Result"
+      input: "110"
+      initial_state: "S0"
+      transition_functions: "δ(S0,0) = S0; δ(S0,1) = S1;......."
+      final_states: "(S0,0);(S1,1);(S2,2)......."
+      final_states_label: "Final states with their values"
